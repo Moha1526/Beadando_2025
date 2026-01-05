@@ -7,7 +7,7 @@ header {
     width: 100%;
     height: 200px;
     border: 3px solid white;
-    background-image: url(Kepek/Eurovizio\ Header\ Hatterkep.png);
+    background-image: url(../kepek/Eurovizio\ Artical\ Hatterkep.png);
     background-size: cover;
 }
 
@@ -84,7 +84,7 @@ article {
     width: 100%;
     height: auto;
     border: 3px solid white;
-    background-image: url(Kepek/Eurovizio\ Artical\ Hatterkep.png);
+    background-image: url(../kepek/Eurovizio\ Artical\ Hatterkep.png);
     background-size: cover;
     border-bottom: 2px solid white;
 }
