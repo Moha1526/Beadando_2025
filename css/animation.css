@@ -1,0 +1,51 @@
+.container2 {
+    overflow: hidden; 
+    position: relative;  
+    width: 600px;
+}
+
+.animacio {
+    position: absolute;
+    left: 50%;
+    bottom: 120px;
+    transform: translate(-50%, 150px) scale(0.5);
+
+    animation: animacio 6s ease-in-out infinite;
+}
+
+@keyframes animacio {
+
+  0% {
+    bottom: 120px;
+    transform: translate(-50%, 150px) scale(0.5);
+  }
+
+  30% {
+    bottom: 50%;
+    transform: translate(-50%, -150px) scale(0.5);
+  }
+
+  40% {
+    bottom: 50%;
+    transform: translate(-50%, -150px) scale(1.2);
+  }
+
+  60% {
+    bottom: 50%;
+    transform: translate(-50%, -150px) scale(1.2);
+  }
+
+  70% {
+    bottom: 50%;
+    transform: translate(-50%, -150px) scale(0.5);
+  }
+
+  100% {
+    bottom: 120px;
+    transform: translate(-50%, 150px) scale(0.5);
+  }
+}
+
+article {
+    overflow: hidden;
+}

@@ -1,0 +1,121 @@
+html {
+    font-family: 'Gill Sans', sans-serif;
+    color: white;
+}
+
+header {
+    width: 100%;
+    height: 200px;
+    border: 3px solid white;
+    background-image: url(Kepek/Eurovizio\ Header\ Hatterkep.png);
+    background-size: cover;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    margin-top: 75px;
+}
+
+nav {
+    width: 100%;
+    height: 52px;
+    background-color:steelblue;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+}
+
+.container {
+    width: 100%;
+    height: 52px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul ul {
+    display: block;
+}
+
+.menu li {
+    list-style-type: none;
+    width: 200px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    border-right: 3px solid white;
+    padding: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: steelblue;
+    height: 50px;
+    
+}
+
+.menu ul li a:hover {
+    background-color: paleturquoise;
+    color: steelblue;
+}
+
+.menu ul ul a {
+    position: sticky;
+    left: 100%;
+    display: none;
+    height: 20px;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+}
+
+.menu ul li:hover > ul a {
+    display: block;
+}
+
+article {
+    width: 100%;
+    height: auto;
+    border: 3px solid white;
+    background-image: url(Kepek/Eurovizio\ Artical\ Hatterkep.png);
+    background-size: cover;
+    border-bottom: 2px solid white;
+}
+
+.container2 {
+    background-color: darkslategray;
+    height: 700px;
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow: auto;
+    text-align: justify;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    border: 3px solid white;
+    background-color:steelblue;
+    border-top: 1px solid white;
+}
+
+footer h3 {
+    text-align: center;
+    color: white;
+}
+
+body {
+    background-color: darkslategray;
+}
+
